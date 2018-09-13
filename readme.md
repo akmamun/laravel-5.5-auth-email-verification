@@ -8,7 +8,7 @@ MAIL_PASSWORD=
 MAIL_ENCRYPTION=null
 ```
 # Note: Use this function in 'Auth/LoginController' to Overwrite Laravel Building Auth Login
-##### Laravel Building Auth Login Not Verify Email Login System, Overwrite this Because We are Not Access to Login Without Mail Verification 
+- Laravel Building Auth Login Not Verify Email Login System, Overwrite User Can Not Access to Login Without Verified Mail 
  ```php
  use Illuminate\Http\Request; 
  
